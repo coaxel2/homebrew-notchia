@@ -1,10 +1,10 @@
-cask "notchia" do
+cask "notchia@rc" do
   version "2.7.4"
   sha256 "94af3f8923dc4c81d2d0040f3142b5382d77990971c432b485e6be47c6f27d2d"
 
   url "https://github.com/coaxel2/NotchIA/releases/download/v2.7.4/NotchIA.dmg"
-  name "NotchIA"
-  desc "NotchIA 🎸🎶 "
+  name "NotchIA RC"
+  desc "NotchIA 🎸🎶 (Release Candidate)"
   homepage "https://github.com/coaxel2/NotchIA"
 
   livecheck do
