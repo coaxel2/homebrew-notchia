@@ -5,7 +5,7 @@ cask "notchia" do
   url "https://github.com/coaxel2/NotchIA/releases/download/v#{version}/NotchIA.dmg"
   name "NotchIA"
   desc "Bring your MacBook notch to life: media controls, calendar, AI assistants"
-  homepage "https://notchia.app"
+  homepage "https://notchia.app/"
 
   livecheck do
     url :url
@@ -27,8 +27,8 @@ cask "notchia" do
 
   zap trash: [
     "~/Library/Application Scripts/com.coaxel2.notchia/",
+    "~/Library/Application Support/NotchIA",
     "~/Library/Containers/com.coaxel2.notchia/",
     "~/Library/Preferences/com.coaxel2.notchia.plist",
-    "~/Library/Application Support/NotchIA",
   ]
 end
