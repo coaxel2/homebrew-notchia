@@ -1,8 +1,8 @@
 cask "notchia@rc" do
-  version "2.8.2"
-  sha256 "92f52019ccacf947695b8995cdb42d831f387c953f4d35f1f980d5d48a6be72a"
+  version "2.8.3"
+  sha256 "74e2bb6ea71736398f9f253e45cd4576cafe5d75b6680fd62ccedc080c9a6914"
 
-  url "https://github.com/coaxel2/NotchIA/releases/download/v2.8.2/NotchIA.dmg"
+  url "https://github.com/coaxel2/NotchIA/releases/download/v2.8.3/NotchIA.dmg"
   name "NotchIA RC"
   desc "NotchIA 🎸🎶 (Release Candidate)"
   homepage "https://github.com/coaxel2/NotchIA"
