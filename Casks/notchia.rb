@@ -1,11 +1,11 @@
 cask "notchia" do
-  version "2.9.9"
-  sha256 "6510a89de6949a821cfe10ea9fcd0039927374531fab977cc2f78177971e1457"
+  version "2.9.18"
+  sha256 "492271015338458208cc564581f1b5321739a844f480e768271c431442faa40c"
 
-  url "https://github.com/coaxel2/NotchIA/releases/download/v2.9.9/NotchIA.dmg"
+  url "https://github.com/coaxel2/NotchIA/releases/download/v#{version}/NotchIA.dmg"
   name "NotchIA"
-  desc "NotchIA 🎸🎶 "
-  homepage "https://github.com/coaxel2/NotchIA"
+  desc "Transform the MacBook notch into an interactive control center"
+  homepage "https://notchia.app/"
 
   livecheck do
     url :url
@@ -13,12 +13,13 @@ cask "notchia" do
   end
 
   auto_updates true
-  depends_on macos: ">= :sonoma"
+  depends_on macos: ">= :sequoia"
 
   app "NotchIA.app"
 
   zap trash: [
     "~/Library/Application Scripts/com.coaxel2.notchia/",
+    "~/Library/Caches/NotchIA/",
     "~/Library/Containers/com.coaxel2.notchia/",
   ]
 end
