@@ -1,6 +1,6 @@
 cask "notchia" do
-  version "2.9.18"
-  sha256 "492271015338458208cc564581f1b5321739a844f480e768271c431442faa40c"
+  version "2.9.19"
+  sha256 "112f8d4b9251197d901b9cb33e79881dd325e87f29e5097f3ca2bf5d6005059d"
 
   url "https://github.com/coaxel2/NotchIA/releases/download/v#{version}/NotchIA.dmg"
   name "NotchIA"
